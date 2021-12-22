@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav {
+    padding: 20px;
+    background-color: #333333;
+    width: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav h1 {
+    color: #FF9901;
+    margin: 15px;
+}
+
+.nav h1 span {
+    color: white;
+}
+
+.nav div button {
+    padding: 8px 17px;
+    margin-left: 5px;
+}
+
+.login-btn, .join-btn {
+    border: 0;
+}
+
+.login-btn {
+    color: white;
+    background-color: blue;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.join-btn {
+    color: black;
+    background-color: #FF9901;
+    margin-right: 20px;
+}
+
+.search {
+    background-color: #F9CB9C;
+    width: auto;
+    padding: 20px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search img {
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.search input {
+    padding: 5px;
+}
+
+.search button {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin-left: -5px;
+}
+
+.search p {
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    padding: 15px;
+}
+
+.rotd {
+    padding: 20px;
+    background-color: #f7f2f2;
+    width: 100%;
+    margin-left: -35px;
+    margin-right: 20px;
+}
+
+.link {
+    display: block;
+    text-align: center;
+}
+
+.rotd h2 {
+    color: navy;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.recipe img {
+    width: 85%;
+    height: auto;
+    padding: 15px;
+    margin-left: 47px;
+    border-radius: 3%;
+}
+
+.score, .score div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.score img {
+    height: 19px;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.recommended h3 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+.col-3 {
+    flex: 3;
+    padding-right: 10px;
+    padding-left: 10px:
+}
+
+.col-2 {
+    flex: 2;
+    padding-left: 10px;
+}
+
+.col-3, .col-2 {
+    padding-top: 20px;
+}
+
+.count1 {
+    margin-right: 40px;
+}
+
+.hearts {
+    margin-left: -35px;
+}
+
+.sweetpic {
+    width: 100px;
+    height: 50px;
+}
